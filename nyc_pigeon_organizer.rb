@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         if !array_of_names[name][key]
           array_of_names[name][key] = []
         end
-        array_of_names[name][key] << key2
+        array_of_names[name][key].push(key2)
         binding.pry
       end
     end
