@@ -7,7 +7,6 @@ def nyc_pigeon_organizer(data)
         if !array_of_names[name]
           array_of_names = {}
         end
-        if 
         binding.pry
       end
     end
