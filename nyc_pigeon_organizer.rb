@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
           array_of_names = {}
         end
         if !array_of_names[name][key2]
+          array_of_names[name] = []
+        end
         binding.pry
       end
     end
