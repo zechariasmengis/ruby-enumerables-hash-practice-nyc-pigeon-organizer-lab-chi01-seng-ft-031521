@@ -4,6 +4,10 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), array_of_names|
     value.each do |key2, value2|
       value2.each do |name|
+        if !array_of_names[name]
+          array_of_names << name
+          binding.pry
+        end
         binding.pry
       end
     end
