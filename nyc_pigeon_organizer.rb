@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value2|
       value2.each do |name|
         if !array_of_names[name]
-          array_of_names << name
+          array_of_names = {}
           binding.pry
         end
         binding.pry
